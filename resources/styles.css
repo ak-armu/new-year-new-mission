@@ -1,0 +1,101 @@
+header{
+    height: 600px;
+    width: 1320px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+   
+   
+}
+.banner_section{
+    background-image: url('Banner Image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 50px auto;
+   
+}
+
+header>h1, h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.party-section{
+    height: 600px;
+    width: 1320px;
+    background-image: url('Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 50px auto;
+   
+
+}
+.time-section{
+    height: 300px;
+    width: 1320px;
+    background-color:lightpink;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: red;
+    
+}
+button{
+    padding: 10px 20px;
+    color: whitesmoke;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.coming-soon-section{
+    height: auto;
+    width: 1320px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.holiday-pic{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.holidayPic3{
+    height: 263px;
+    width: 100%;   
+}
+
+.holidayPic2{
+    margin-left: -150px;
+}
+
+.red-image{
+    background-image: url('Rectangle 2.png');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: -200px;
+}
