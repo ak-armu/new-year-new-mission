@@ -1,3 +1,7 @@
+*{
+  
+    font-family: "Open Sans", sans-serif;
+}
 header{
     height: 600px;
     width: 1320px;
@@ -14,14 +18,30 @@ header{
     background-image: url('Banner Image.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 50px auto;
+    margin:0px auto 50px;
+    
+
    
 }
 
-header>h1, h2{
+header{
+    padding: 100px;
+    display: flex;
     text-align: center;
-    padding: 20px;
+    align-items: center;
 }
+header>h2{
+    font-size: 40px;
+    font-weight: 600px;
+}
+
+header>h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    width: 500px;
+}
+
 
 .offer-section{
     display: flex;
@@ -29,17 +49,45 @@ header>h1, h2{
     align-items: center;
     text-align: center;
 }
+.offer-heading{
+    font-size: 50px;
+    font-weight: 800;
+}
+/* party section starts */
 
 .party-section{
+    padding: 100px;
+    color: white;
     height: 600px;
     width: 1320px;
     background-image: url('Vectorrr.png');
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 50px auto;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    
 
 }
+.party-section>p{
+    width: 50%;
+    text-align: justify;
+}
+
+.party-section>h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+button:hover{
+    background-color: black;
+}
+/* party section end */
+
+
+/* time section starts */
 .time-section{
     height: 300px;
     width: 1320px;
@@ -50,6 +98,7 @@ header>h1, h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 15px;
 }
 span{
     color: red;
@@ -59,17 +108,40 @@ button{
     padding: 10px 20px;
     color: whitesmoke;
     background-color: red;
-    border: 1px solid white;
+    border: 1px solid lightpink;
     border-radius: 5px;
+    width: 200px;
 }
+/* time section end */
 
+/* coming soon section starts */
 .coming-soon-section{
     height: auto;
     width: 1320px;
     margin: 50px auto;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 50px;
 }
+.coming-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    width: 430px;
+}
+.coming-soon-heading, .year24{
+    font-size: 45px;
+    font-weight: 700;
+}
+.coming-section-pic{
+    padding: 30px;
+    border: 10px solid red;
+    border-radius: 500px;
+}
+/* coming soon section end */
 
 /* holiday section start */
 .holiday-section{
@@ -84,8 +156,19 @@ button{
 .holiday-content{
     display: flex;
     flex-direction: column;
+    grid-area: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.holiday-content>p{
+    width: 600px;
+    text-align: center;
+}
+
+.holiday-heading{
+    font-size: 40px;
+    font-weight: 800;
 }
 .holiday-pic{
     
@@ -122,13 +205,24 @@ button{
     margin: 50px auto;
     gap: 20px;
 }
+.portfolio-content>p{
+    width: 700px;
+    text-align: justify;
+}
+.portfolio-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
 
 
 .portfolio-pic{
     display: flex;
     justify-content: space-between;
 }
-
+.portfolio-pic>img:hover{
+    border: 5px solid green;
+    border-radius: 50px;
+}
 /* portfolio section end */
 
 
@@ -137,6 +231,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 15px;
     width: 1320px;
     align-items: center;
     margin: 50px auto;
@@ -144,6 +239,15 @@ button{
     padding: 50px;
     border-radius: 20px;
 
+}
+.subscribe-section>p{
+    width: 700px;
+    text-align: center;
+}
+.subscribe-heading{
+
+    font-size: 35px;
+    font-weight: 700;
 }
 .email-icon{
     height: 100px;
@@ -161,6 +265,11 @@ button{
     border: 1px solid lightpink;
     border-radius: 0px 25px 25px 0px;
     margin-left: -20px;
+}
+.submit-btn:hover{
+    background-color: brown;
+    color: white;
+    border: 2px solid red;
 }
 
 
